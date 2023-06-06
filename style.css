@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: slategrey;   
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+  /* Estilos adicionales para los botones */
+#boton1 {
+    background-color: #e74c3c;
+}
+
+#boton2 {
+    background-color: #2ecc71;
+}
+
+#boton3 {
+    background-color: #f39c12;
+}
+
+.cuadro{
+    background-color: darkslategrey;
+    padding: 40px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
